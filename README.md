@@ -35,8 +35,8 @@ parsing de HTML (`cheerio`).
 ## Instalación
 
 ```bash
-git clone https://github.com/JoaquinBetes/oefascrapping_jb.git
-cd oefascrapping_jb
+git clone https://github.com/JoaquinBetes/OEFA_Scraping_JB.git
+cd OEFA_Scraping_JB
 npm install
 ```
 
