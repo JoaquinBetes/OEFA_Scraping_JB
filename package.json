@@ -1,0 +1,22 @@
+{
+  "name": "scraper-oefa-tfa",
+  "version": "1.0.0",
+  "description": "Scraper HTTP en TypeScript (sin automatización de navegador) del Repositorio Digital de OEFA: extrae las resoluciones del Tribunal de Fiscalización Ambiental y descarga sus PDFs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": ["scraping", "typescript", "jsf", "primefaces", "axios", "cheerio"],
+  "author": "Joaquín Betes",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
